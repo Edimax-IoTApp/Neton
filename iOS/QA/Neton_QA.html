@@ -34,7 +34,16 @@ tr:nth-child(even) {
       <tr>
        <td>
            Release_Note:<p/>
-           1.Provisioning : HTTPS<br/><br/>
+           1.Fixed : <br/>
+           (1). APPNew : Implemented One-time Data Migration with a Self-Destruct Mechanism. All secrets are now stored in the hardware-backed Keychain with HMAC signature verification.<br/>
+               (2). APIs : request body keys + memset<br/>
+               (3). TextField (password) : Login , Register , Add User<br/>
+               (4). Fixed: VLAN Apply (Network)<br/>
+               (5). Issues : symbols(SSID,PSK,email),Report,UI(User Management,IPA),Traffic(%.1f),PIN code, About, Add site (Maintain default SSID)<br/>
+               (6). HMAC Key<br/>
+               (7). Provisioning : support HTTPS<br/>
+               (8). The system supports Multi-Device Concurrent Access tied to unique AppID bindings. A single account may maintain multiple active sessions across different authorized devices simultaneously via cloud synchronization.<br/>
+               (9). The system enforces an Absolute Timeout of 12 hours to mitigate risk from overnight session exposure<br/><br/>
            </td>
            </tr>
   <tr>
