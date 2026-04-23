@@ -26,7 +26,7 @@ tr:nth-child(even) {
 <table align="center">
   <tr>
     <th>Neton</th>
-    <th>v1.0.03(20260423)</th>
+    <th>v1.0.03(202604231)</th>
     <th><a class="button button-primary" href="itms-services://?action=download-manifest&url=https://edimax-iotapp.github.io/Neton/iOS/PROD/manifest.plist">Install APP</a></th>
   </tr>
   </table>
@@ -34,9 +34,10 @@ tr:nth-child(even) {
       <tr>
        <td>Release_Note:<p/>
            1. Fixed:<br/>
-           (1). Provisioning : websocket pin pong  ok -> cloud_connected  : 1 -> enable_SSID -> 註冊成功 <br/>
-           (2). Provisioning timeout : DevList ok -> enable_SSID -> 註冊成功 <br/>
-           (3). Provisioning Err : cloud_connected : 2 -> Alert<br/><br/>
+           (1). Provisioning : websocket pin pong  ok -> cloud_connected : 1 -> enable_SSID -> 註冊成功 <br/>
+           (2). Provisioning timeout : cloud_connected : 0 -> Err Alert <br/>
+           (3). Provisioning timeout : cloud_connected : 1 -> enable_SSID -> 註冊成功 <br/>
+           (4). Provisioning Err : cloud_connected : 2 -> Err Alert<br/><br/>
            </td>
            </tr>
   <tr>
